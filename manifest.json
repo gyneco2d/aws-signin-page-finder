@@ -1,0 +1,20 @@
+{
+  "name": "AWS sign-in page finder",
+  "version": "1.0",
+  "description": "Transition a new tab to the AWS sign-in page using only your account ID",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/aws16.png"
+    },
+    "default_title": "Open AWS login page using specified account ID.",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/aws16.png",
+    "32": "images/aws32.png",
+    "48": "images/aws48.png",
+    "128": "images/aws128.png"
+  },
+  "manifest_version": 2
+}
